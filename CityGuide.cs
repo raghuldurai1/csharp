@@ -1,6 +1,6 @@
-class CityGuide
+class Cg
 {
-	public static void Main(string[] args)
+	public void Demo()
 	{
 		System.Console.WriteLine("Select your choice");
 		System.Console.WriteLine("London");
@@ -29,4 +29,13 @@ class CityGuide
 				break;
 		}
 	}
-}			
+}
+
+class CityGuide
+{
+	public static void Main(string[] args)
+	{
+		Cg obj = new Cg();
+		obj.Demo();
+	}
+}
